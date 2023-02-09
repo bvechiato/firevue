@@ -3,13 +3,13 @@ A hirevue question cracker
 
 ### Requirements
 1. Python 3
-2. Mozilla Firefox (Google Chrome might work but I haven't tested it).
+2. Mozilla Firefox or Google Chrome
 3. Hirevue interview invite link
 
 ### Steps to run this code
 1. Download the repository or the python file `firevue.py`.
 2. Move the python file in any new directory (folder). This could be anywhere on the system.
-3. Open the valid hirevue invite link in Firefox. If you don't see your name on the page, click the continue or start button and the page showing your name should be next. This will not the start the interview. But it's an important step in capturing the questions.
+3. Open the valid hirevue invite link in Firefox/Chrome. If you don't see your name on the page, click the continue or start button and the page showing your name should be next. This will not the start the interview. But it's an important step in capturing the questions.
 4. Open the web development console (`CTRL+SHIFT+I` or `CMD+ALT+I`). Click on the network tab.
 5. Reload the current page so it can capture all web traffic.
 6. Right click on any entry in the console and save all as HAR. Save the HAR file into the same folder that contains the python script `firevue.py`.
